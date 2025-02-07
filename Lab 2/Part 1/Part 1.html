@@ -107,7 +107,7 @@ Mozilla splash page.
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-        <img src="./photoes/firefox_logo-only_RGB_120.png">
+        <img src="./photoes/firefox_logo-only_RGB_120.png" alt="a Firefox logo">
     </header>
 
     <main>
@@ -125,16 +125,19 @@ Mozilla splash page.
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="./photoes/firefox_logo-only_RGB.png" alt="a firefox logo">
+          <img src="./photoes/firefox_logo-only_RGB.png" srcset="./photoes/firefox_logo-only_RGB_120.png 120w, ./photoes/firefox_logo-only_RGB.png 400w" sizes="(max-width: 600px) 120px, 400px" alt="a firefox logo">
         </a>
+
         <a href="https://www.mozilla.org/">
-          <img src="./photoes/mozilla-dinosaur-head.png" alt="a mozilla mozilla dinosaur head">
+          <img src="./photoes/mozilla-dinosaur-head.png" srcset="./photoes/mozilla-dinosaur-head_120.png 120w, ./photoes/mozilla-dinosaur-head.png 400w" sizes="(max-width: 600px) 120px, 400px" alt="a mozilla mozilla dinosaur head">
         </a>
+
         <a href="https://addons.mozilla.org/">
           <img src="./photoes/firefox-addons.jpg" alt="a firefox addons">
         </a>
+
         <a href="https://developer.mozilla.org/en-US/">
-          <img src="./photoes/mdn.svg">
+          <img src="./photoes/mdn.svg" alt="a mdn">
         </a>
         <div class="clearfix"></div>
       </div>

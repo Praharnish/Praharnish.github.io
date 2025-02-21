@@ -79,3 +79,21 @@ Date : 20 Febuary 2025
     font-family: 'Sigmar', sans-serif;
     text-align: center;
   }
+
+  p, li {
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+  }
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+  }
+
+  p {
+    text-indent: 2.5em;
+  }

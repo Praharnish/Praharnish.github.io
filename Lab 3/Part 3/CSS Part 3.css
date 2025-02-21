@@ -94,8 +94,12 @@ h2 {
     letter-spacing: 0.1em;
   }
 
-  p {
+  section p {
     text-indent: 2.5em;
+  }
+
+  aside p {
+    text-indent: 0em;
   }
 
   a {
@@ -120,6 +124,14 @@ h2 {
     height: 16px;
     margin-left: 5px;
     background-size: contain;
+  }
+
+  section ul, aside ul {
+    list-style-type: square;
+  }
+
+  section ol {
+    list-style: lower-alpha;
   }
 
   nav ul {

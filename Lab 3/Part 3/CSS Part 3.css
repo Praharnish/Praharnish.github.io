@@ -49,3 +49,8 @@ Date : 20 Febuary 2025
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  header, footer {
+    width: 100%;
+    text-align: center;
+  }

@@ -45,3 +45,12 @@ body {
     color: #800068;     /* purple color for the dots */
     font-size: 1.5em;
   }
+
+  ul {
+    border: 4px solid purple;
+    padding: 30px;
+    background-color: #f9f9f9;
+    line-height: 1.5;
+  }
+
+  }

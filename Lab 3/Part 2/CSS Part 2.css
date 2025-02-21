@@ -7,6 +7,9 @@ Date : 20 Febuary 2025
 html {
     font-family: sans-serif;
   }
-  
-  /* Your CSS below here */
-  
+  div {
+    width: 300px;
+    height: 200px;
+    background: red linear-gradient(to top left, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 0%);
+    text-align: center;
+  }

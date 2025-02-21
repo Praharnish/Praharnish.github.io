@@ -15,6 +15,10 @@ html {
     font-size: 1.5rem;
     text-shadow: 1px 1px 2px black;
     border-radius: 10px;
+    border: 1px solid #a60000;
     background: red linear-gradient(to top left, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 0%);
+    box-shadow: 3px 3px 5px #000000, -3px -3px 5px #555555;
     text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
   }

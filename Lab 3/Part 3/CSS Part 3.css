@@ -54,3 +54,18 @@ Date : 20 Febuary 2025
     width: 100%;
     text-align: center;
   }
+
+  @font-face {
+    font-family: 'Sigmar';
+    src: url(./Fonts/Sigmar/Sigmar-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Atkinson_Hyperlegible_Mono';
+    src: url(./Fonts/Atkinson_Hyperlegible_Mono/AtkinsonHyperlegibleMono-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+

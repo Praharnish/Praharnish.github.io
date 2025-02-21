@@ -121,3 +121,36 @@ h2 {
     margin-left: 5px;
     background-size: contain;
   }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #844242;
+    background-color: #d68e8e;
+    transition: background-color 0.3s ease;
+  }
+
+  nav ul li:hover, nav ul li:focus {
+    background-color: #ddd;
+    
+  }
+
+  nav ul li:active {
+    background-color: #bbb;
+  }

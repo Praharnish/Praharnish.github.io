@@ -4,16 +4,16 @@ File : CSS Part 4.html
 Date : 20 Febuary 2025
 */
 
-body {
+  body {
     background-color: #fff;
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
-
+  
   img {
-      max-width: 100%;
-      display: block;
+    max-width: 100%;
+    display: block;
   }
   
   .logo {
@@ -51,7 +51,9 @@ body {
     margin: 0;
     padding: 0;
   }
-
+  
   .feature {
-      width: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
   }

@@ -66,6 +66,16 @@ Date : 20 Febuary 2025
     font-family: 'Atkinson_Hyperlegible_Mono';
     src: url(./Fonts/Atkinson_Hyperlegible_Mono/AtkinsonHyperlegibleMono-VariableFont_wght.ttf) format('truetype');
     font-weight: normal;
-    font-style: normal;
+    font-style: bold;
   }
 
+  html {
+    font-family: 'Atkinson_Hyperlegible_Mono', sans-serif;
+    font-size: 16px;
+
+  }
+
+  h1, h2 {
+    font-family: 'Sigmar', sans-serif;
+    text-align: center;
+  }

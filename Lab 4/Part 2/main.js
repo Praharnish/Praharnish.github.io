@@ -3,6 +3,9 @@ Name : Harninsh Prajapati
 File : main.js
 Date : 1 April 2025
 Purpose : assignment 4 part 2
+Note :  Took the help from the kushal because having some troble in this part. So, may be a bit identicle. 
+        I already changed all the commits by revefting them because he was teaching me and i did commits by mistakely.
+        I hope you will considere this. @ Darren_Puffer
 */
 
 const displayedImage = document.querySelector('.displayed-img');

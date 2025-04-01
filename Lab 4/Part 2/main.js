@@ -18,11 +18,11 @@ const images = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"];
 /* Declaring the alternative text for each image file */
 
 const obj = {
-    "pic1.jpg": "Image of Human eye",
-    "pic2.jpg": "Image of something wavy",
-    "pic3.jpg": "Image of Lavender flowers",
-    "pic4.jpg": "image of Ancient Egypt painting",
-    "pic5.jpg": "Butterfly's image"
+    "pic1.jpg": "Picture of Human eye",
+    "pic2.jpg": "Picture of something wavy",
+    "pic3.jpg": "Lavender flowers",
+    "pic4.jpg": "Ancient Egypt painting",
+    "pic5.jpg": "Butterfly image"
 }
 
 /* Looping through images */
@@ -41,16 +41,3 @@ for (const image of images) {
 }
 
 /* Wiring up the Darken/Lighten button */
-
-btn.addEventListener('click', () => {
-    const btnClass = btn.getAttribute('class');
-    if (btnClass === 'dark') {
-        btn.setAttribute('class','light');
-        btn.textContent = 'Lighten';
-        overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
-    } else {
-        btn.setAttribute('class','dark');
-        btn.textContent = 'Darken';
-        overlay.style.backgroundColor = 'rgba(0,0,0,0)';
-    }
-});

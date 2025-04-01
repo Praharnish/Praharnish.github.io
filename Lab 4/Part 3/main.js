@@ -1,3 +1,10 @@
+/*
+Name : Harninsh Prajapati
+File : main.js
+Date : 1 April 2025
+Purpose : assignment 4 part 3
+*/
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");

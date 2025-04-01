@@ -27,10 +27,6 @@ const alt = {
 
 /* Looping through images */
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
 for (const image of images) {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', `images/${image}`);

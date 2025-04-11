@@ -59,8 +59,8 @@ p, li, table {
 
 /* || header layout */
 
-  background-color: green;
 nav, article, footer, .secondary {
+  background-color: rgb(255, 255, 255);
 }
 
 article, footer, .secondary {

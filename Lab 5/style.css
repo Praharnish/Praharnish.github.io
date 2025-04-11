@@ -256,3 +256,22 @@ audio {
 .comment-container li p:nth-child(2) {
   flex: 5;
 }
+
+/* Modification in fonts*/
+
+h1,h2,h3{
+  font-family: 'Sonsie One', cursive;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.2rem;
+}

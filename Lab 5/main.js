@@ -53,3 +53,7 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+/* added trhe button */
+
+showHideBtn.setAttribute("aria-expanded", commentWrapper.style.display === 'block');
